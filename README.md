@@ -9,6 +9,11 @@ The solution includes a Streamlit web UI, a CLI mode, automated pytest coverage 
 
 
 
+![WhatsApp Image 2025-05-07 at 6 53 29 AM](https://github.com/user-attachments/assets/f270ad31-a124-4122-8052-e0bed7570533)
+
+
+
+
 ## 🗺️ End‑to‑End Process & Steps
 
 | #  | Phase                               | What We Did                                                                                                                                                                                                                           | Key Files / Commands                                                               |
@@ -30,17 +35,7 @@ The solution includes a Streamlit web UI, a CLI mode, automated pytest coverage 
 
 ## 🏗️ Architecture & Flow Diagram
 
-```mermaid
-flowchart TD
-    A[User<br>(Web / CLI)] -->|sends question| B(Streamlit Front‑end)
-    B -->|API call| C[chat_once()]
-    C --> D[embed_query → OpenAI Embeddings]
-    D --> E[FAISS Search<br>(top‑3)]
-    E --> F[Build Prompt<br>FAQ ctx + history + user msg]
-    F --> G[GPT‑3.5‑Turbo]
-    G -->|response| H[ConversationMemory<br>append]
-    H -->|final answer| B
-```
+
 
 ---
 
