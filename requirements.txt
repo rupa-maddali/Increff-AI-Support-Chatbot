@@ -1,0 +1,5 @@
+streamlit>=1.17.0
+langchain>=0.0.181
+faiss-cpu>=1.7.3
+openai>=0.27.0
+pytest>=8.0
