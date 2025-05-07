@@ -33,12 +33,6 @@ The solution includes a Streamlit web UI, a CLI mode, automated pytest coverage 
 
 ---
 
-## 🏗️ Architecture & Flow Diagram
-
-
-
----
-
 ## 🔧 Setup & Run
 
 ```bash
